@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+
+        android:id="@+id/editItem"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Item Name" />
+
+
+
+    <EditText
+
+        android:id="@+id/editCategory"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Category" />
+
+
+
+    <EditText
+
+        android:id="@+id/editQuantity"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Quantity"
+
+        android:inputType="number" />
+
+
+
+    <EditText
+
+        android:id="@+id/editComment"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Comments" />
+
+
+
+    <!-- Buttons -->
+
+    <Button
+
+        android:id="@+id/btnAdd"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Add to Packing List" />
+
+
+
+    <Button
+
+        android:id="@+id/btnGoList"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Go to Packing List" />
+
+
+
+    <Button
+
+        android:id="@+id/btnExit"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Exit App" />
+
+
+
+</LinearLayout>
+
+

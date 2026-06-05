@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ListActivity">
+
+    <TextView
+
+        android:id="@+id/textViewList"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Packing list will appear here"
+
+        android:padding="8dp"
+
+        android:textSize="16sp" />
+    <Button
+
+        android:id="@+id/btnDisplayAll"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Display Packing List" />
+
+
+
+    <Button
+
+        android:id="@+id/btnDisplayTwoPlus"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Display Items with Quantity ≥ 2" />
+
+
+
+    <Button
+
+        android:id="@+id/btnReturn"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Return to Main Screen" />
+
+
+
+</LinearLayout>
+
+
